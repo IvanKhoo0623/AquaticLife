@@ -1,0 +1,81 @@
+/* General Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+/* Navigation Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0f82ca;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #0992d6;
+}
+.active {
+  background-color: #0992d6;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 80px; 
+}
+section {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  padding: 100px;
+  margin: 20px 0;
+  border-radius: 10px;
+  text-align: center;
+}
+/* Background Images */
+#fish { background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(fish.jpg); }
+#crustaceans { background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(crustaceans.jpg); }
+#mollusks { background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(mollusks.jpg); }
+#echinoderms { background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(echinoderms.jpg); }
+#cnidarians { background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(cnidarians.jpg); }
+#plankton { background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(plankton.jpg); }
+/* Headings */
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+/* Paragraphs */
+p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+/* Footer */
+.website__rights {
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  background-color: #0073ff;
+  color: white;
+  margin-top: 50px;
+}
+
